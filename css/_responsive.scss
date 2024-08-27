@@ -4687,8 +4687,6 @@
 	.appartment_page {
 		header.main_header {
 			padding: 17px 0;
-			backdrop-filter: blur(0px);
-			background: transparent;
 		}
 	}
 
@@ -4922,6 +4920,16 @@
 
 	.personalized_offer .main_dropdown__body_wrap {
 		width: 100%;
+	}
+
+	.appartment_page footer .footer_block_center {
+		flex-direction: column;
+	}
+.appartment_page footer .footer_logo{
+	align-items: center;
+}
+	.appartment_page footer .footer_logo_under {
+		display: none;
 	}
 }
 
