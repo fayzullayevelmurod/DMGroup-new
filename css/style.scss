@@ -4666,6 +4666,7 @@ footer {
 		display: flex;
 		align-items: center;
 		width: 100%;
+		padding: 0 32px;
 	}
 }
 
@@ -4890,7 +4891,7 @@ footer {
 		transform: translateX(-50%);
 		z-index: -1;
 
-		&.book_img__media{
+		&.book_img__media {
 			display: none;
 		}
 	}
