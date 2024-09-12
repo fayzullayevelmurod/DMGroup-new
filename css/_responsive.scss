@@ -3031,7 +3031,7 @@
 	}
 
 	.intro {
-		background-size: 100% 43%;
+		background-size: 100% 53%;
 	}
 
 	.intro .main_container {
@@ -3048,7 +3048,7 @@
 	}
 
 	.intro_content__info-box {
-		padding-top: 202px;
+		padding-top: 350px;
 	}
 
 	.intro_right__content {
@@ -3305,11 +3305,19 @@
 
 	// Partners end
 	.intro {
-		background-size: 100% 38%;
+		background-size: 100% 48%;
 	}
 }
 
+@media screen and (max-width: 480px) {
+	.intro {
+		background-size: 100% 38%;
+	}
 
+	.intro_content__info-box {
+		padding-top: 202px;
+	}
+}
 
 
 @media only screen and (max-width: 360px) {

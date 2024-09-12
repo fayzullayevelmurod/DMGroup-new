@@ -3334,7 +3334,7 @@ header .burger {
     padding: 17px 0;
   }
   .intro {
-    background-size: 100% 43%;
+    background-size: 100% 53%;
   }
   .intro .main_container {
     padding: 82px 20px 130px 20px;
@@ -3347,7 +3347,7 @@ header .burger {
     max-width: 278px;
   }
   .intro_content__info-box {
-    padding-top: 202px;
+    padding-top: 350px;
   }
   .intro_right__content {
     position: relative;
@@ -3544,7 +3544,15 @@ header .burger {
     font-size: 15px;
   }
   .intro {
+    background-size: 100% 48%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .intro {
     background-size: 100% 38%;
+  }
+  .intro_content__info-box {
+    padding-top: 202px;
   }
 }
 @media only screen and (max-width: 360px) {
