@@ -17,6 +17,8 @@
 @media screen and (max-width: 1024px) {
 	.intro {
 		background-image: url(../images/intro-bg-media.png);
+		background-size: 1024px 100%;
+		background-position: center;
 	}
 
 	.personalized_offer .main_container {
@@ -3031,7 +3033,8 @@
 	}
 
 	.intro {
-		background-size: 100% 53%;
+		background-size: 100% 56%;
+		background-position: top;
 	}
 
 	.intro .main_container {
@@ -3048,7 +3051,7 @@
 	}
 
 	.intro_content__info-box {
-		padding-top: 350px;
+		padding-top: 408px;
 	}
 
 	.intro_right__content {
@@ -3278,6 +3281,12 @@
 	}
 }
 
+@media screen and (max-width: 700px) {
+	.intro {
+		background-size: 100% 54%;
+	}
+}
+
 @media only screen and (max-width: 650px) {
 	.management_home {
 		.management_home_media_form {
@@ -3306,6 +3315,10 @@
 	// Partners end
 	.intro {
 		background-size: 100% 48%;
+	}
+
+	.intro_content__info-box {
+		padding-top: 300px;
 	}
 }
 

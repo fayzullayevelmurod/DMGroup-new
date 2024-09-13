@@ -586,7 +586,8 @@ header .burger {
 
 .intro {
   background: url(../images/appartment-bg.png) no-repeat;
-  background-size: 100% 100%;
+  background-size: 1920px 100%;
+  background-position: center;
 }
 .intro .main_container {
   position: relative;
@@ -1144,6 +1145,8 @@ header .burger {
 @media screen and (max-width: 1024px) {
   .intro {
     background-image: url(../images/intro-bg-media.png);
+    background-size: 1024px 100%;
+    background-position: center;
   }
   .personalized_offer .main_container {
     padding: 20px 20px 227px 20px;
@@ -3334,7 +3337,8 @@ header .burger {
     padding: 17px 0;
   }
   .intro {
-    background-size: 100% 53%;
+    background-size: 100% 56%;
+    background-position: top;
   }
   .intro .main_container {
     padding: 82px 20px 130px 20px;
@@ -3347,7 +3351,7 @@ header .burger {
     max-width: 278px;
   }
   .intro_content__info-box {
-    padding-top: 350px;
+    padding-top: 408px;
   }
   .intro_right__content {
     position: relative;
@@ -3525,6 +3529,11 @@ header .burger {
     display: none;
   }
 }
+@media screen and (max-width: 700px) {
+  .intro {
+    background-size: 100% 54%;
+  }
+}
 @media only screen and (max-width: 650px) {
   .management_home .management_home_media_form {
     width: 100%;
@@ -3545,6 +3554,9 @@ header .burger {
   }
   .intro {
     background-size: 100% 48%;
+  }
+  .intro_content__info-box {
+    padding-top: 300px;
   }
 }
 @media screen and (max-width: 480px) {
